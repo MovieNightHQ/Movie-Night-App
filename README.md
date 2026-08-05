@@ -5,7 +5,7 @@
   
   <p align="center">
     <h3>Discover the magic of cinema. Anytime. Anywhere.</h3>
-    <a href="https://movie-night-self.vercel.app/"><strong>🌐 Live Demo</strong></a>
+    <a href="https://movienighthub.vercel.app/"><strong>🌐 Live Demo</strong></a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
     <a href="https://github.com/Abdo-omran2206/Movie-Night"><strong>🖥️ Repository</strong></a>
   </p>
