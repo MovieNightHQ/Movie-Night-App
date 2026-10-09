@@ -1,15 +1,35 @@
 # 🎬 Movie Night
 
 <div align="center">
-  <img src="./assets/images/icon.png" width="250" height="250" style="border-radius: 10px;" alt="Movie Night Logo" />
-  
-  <p align="center">
-    <h3>Discover the magic of cinema. Anytime. Anywhere.</h3>
-    <a href="https://movienighthub.vercel.app/"><strong>🌐 Live Demo</strong></a>
-    &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://github.com/Abdo-omran2206/Movie-Night"><strong>🖥️ Repository</strong></a>
-  </p>
+
+  <img src="./assets/images/icon.png" width="128" height="128" style="border-radius: 10px;" alt="Movie Night Logo" />
+
+  <h2>Discover the magic of cinema. Anytime. Anywhere.</h2>
+
+  <p>A cinematic movie and TV companion for iOS and Android, built with Expo and React Native.</p>
+
+  <a href="https://github.com/MovieNightHQ/Movie-Night"><strong>🌐 Web</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MovieNightHQ/Movie-Night-Desktop"><strong>🖥️ Desktop</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MovieNightHQ"><strong>🏠 Organization</strong></a>
 </div>
+
+![Expo SDK 54](https://img.shields.io/badge/Expo-SDK%2054-000020?logo=expo)
+![React Native](https://img.shields.io/badge/React%20Native-0.81-61DAFB?logo=react)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8B5CF6.svg)](./LICENSE)
+
+<details>
+  <summary><strong>📚 On this page</strong></summary>
+
+  - [Features](#-features)
+  - [Technology](#-tech-stack)
+  - [Run locally](#-getting-started)
+  - [Configuration](#-configuration-management)
+  - [Contributing](#-contributing)
+  - [License](#-license)
+
+</details>
 
 ---
 
@@ -18,6 +38,12 @@
 **Movie Night** is a sleek, premium mobile and web experience that brings the magic of cinema to your fingertips. Built with modern technologies like **React Native**, **Supabase**, **Zustand**, and **Google Gemini AI**, it offers an intuitive interface for discovering, searching, and exploring **movies and TV shows**. Whether you're looking for trending blockbusters, binge-worthy series, or hidden gems, Movie Night provides comprehensive information including cast details, ratings, genres, and plot summaries.
 
 The application features a dark, cinematic theme with smooth animations, offering a "Netflix-inspired" premium feel that is fully optimized for all devices. It also includes **NightGuide**, a personalized AI assistant that helps you find exactly what you're in the mood to watch.
+
+## 🌙 MovieNightHQ Ecosystem
+
+This mobile app brings MovieNightHQ's movie discovery experience to iOS and Android. Continue on the [web app](https://github.com/MovieNightHQ/Movie-Night) and use the [Windows desktop app](https://github.com/MovieNightHQ/Movie-Night-Desktop) for a bigger-screen viewing experience. Together, these projects help people discover, organize, and enjoy what to watch across platforms.
+
+Explore the [MovieNightHQ organization](https://github.com/MovieNightHQ) for the complete project family.
 
 ---
 
@@ -94,7 +120,7 @@ The application features a dark, cinematic theme with smooth animations, offerin
 - **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict typing with centralized interfaces)
 - **Backend/Auth**: [Supabase](https://supabase.com/) (PostgreSQL & Auth)
 - **State Management**: [Zustand](https://github.com/pmndrs/zustand) (Persistent Storage)
-- **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/) (v3 File-based)
+- **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/) (v6 file-based)
 - **AI Integration**: [Google Gemini API](https://ai.google.dev/) for intelligent recommendations
 - **UI/Animations**:
   - `react-native-reanimated` for smooth parallax and content animations
@@ -173,8 +199,7 @@ Movie-Night-App/
 
 ### Prerequisites
 
-- Node.js 18+ and npm
-- Expo CLI (`npm install -g expo-cli`)
+- Node.js 20.19+ and npm
 - Supabase account ([sign up here](https://supabase.com))
 - TMDB API key ([get one here](https://www.themoviedb.org/settings/api))
 
@@ -183,7 +208,7 @@ Movie-Night-App/
 1. **Clone & Install**
 
    ```bash
-   git clone https://github.com/Abdo-omran2206/Movie-Night-App.git
+   git clone https://github.com/MovieNightHQ/Movie-Night-App.git
    cd Movie-Night-App
    npm install
    ```
@@ -248,14 +273,15 @@ Version management is handled through Supabase configuration:
 
 ## 🤝 Contributing
 
-This project is currently private. For collaboration inquiries, please contact the team.
+Contributions are welcome. Before opening a pull request, check existing issues, describe the change and how it was tested, and never include credentials or private user data.
 
 ---
 
 ## 📄 License
 
-This project is private and proprietary.  
-© 2026 Movie Night Team. All rights reserved.
+Movie Night App is open source under the [MIT License](./LICENSE). You may use, copy, modify, distribute, sublicense, and sell the software, provided the copyright and permission notice are included with copies or substantial portions. The software is provided **“as is,” without warranty**, and the authors are not liable for claims or damages. See the [full license text](./LICENSE).
+
+This license applies to this repository; third-party libraries, APIs, movie data, artwork, and trademarks remain subject to their owners' terms. This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ---
 
